@@ -2,22 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f56ad1-eacd-4f33-b8b3-c841f7152ab9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/client_jobs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/freelancer_get_jobs_list.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/client_jobs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/freelancer_get_jobs_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/submit_proposal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/submit_proposal.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/freelancer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/job.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/proposal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/pw_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/pw_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/00changelog.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/branch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/cache/branch2-served" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/cache/rbc-names-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/cache/rbc-revs-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/cache/tags2-visible" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/dirstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/hgrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/requires" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/00changelog.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/00manifest.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/application.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/behave.ini.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/create.sql.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/create__pg.sql.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/help.txt.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/ls.nginx.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/ls.sqlite.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/lsdb.sqlite.png.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/lsdb.sqlite.uml.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/docs/tutorial.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/____init____.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/app.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/category.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/cheap__product.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/customer-inventory.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/customer-order.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/environment.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/manager-inventory.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/steps/____init____.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/steps/app.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/steps/category.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/steps/cheap__product.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/steps/customer__inventory.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/features/tutorial.feature.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/local__settings.py.tmpl.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/logics/____init____.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/logics/some.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/logs/tmpl.tmpl.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/ls.sqlite-shm.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/ls.sqlite-wal.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/ls.sqlite.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/____init____.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/category.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/customer.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/item.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/order.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/processing.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/product.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/models/product__1.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/reqs.txt.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/run.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/services/____init____.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/services/categories.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/services/get__items.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/services/items.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/services/product.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/services/pw__api.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/settings.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/ui/____init____.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/ui/admin.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/ui/root.py.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/data/~2ehgignore.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/fncache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/phaseroots" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/undo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/undo.backupfiles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/store/undo.phaseroots" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/undo.bookmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/undo.branch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/undo.desc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hg/undo.dirstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ls_source.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ls_source.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/client_jobs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/client_jobs.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +87,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ls_source$freelancer_get_jobs_list.coverage" NAME="freelancer_get_jobs_list Coverage Results" MODIFIED="1552693728583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/ls_source$ls_source.coverage" NAME="ls_source Coverage Results" MODIFIED="1552694588223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ls_source$client_jobs_feature_Add_new_job_advertisement.coverage" NAME="client_jobs.feature:Add new job advertisement Coverage Results" MODIFIED="1552693105291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ls_source$freelancer_get_jobs_list.coverage" NAME="freelancer_get_jobs_list Coverage Results" MODIFIED="1552693728583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -51,84 +112,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-              <folding>
-                <element signature="e#25#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/job.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#25#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/steps/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/client_jobs.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-491" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/product.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/pw_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="167">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,6 +145,35 @@
       <find>categories</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/sofi" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -160,12 +188,13 @@
         <option value="$PROJECT_DIR$/features/steps/client_jobs.py" />
         <option value="$PROJECT_DIR$/features/freelancer_get_jobs_list.feature" />
         <option value="$PROJECT_DIR$/services/pw_api.py" />
-        <option value="$PROJECT_DIR$/features/client_jobs.feature" />
         <option value="$PROJECT_DIR$/features/submit_proposal.feature" />
         <option value="$PROJECT_DIR$/features/steps/submit_proposal.py" />
         <option value="$PROJECT_DIR$/features/steps/freelancer_get_jobs_list.py" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
         <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/models/client_jobs.py" />
+        <option value="$PROJECT_DIR$/features/client_jobs.feature" />
       </list>
     </option>
   </component>
@@ -174,48 +203,34 @@
     <option name="width" value="700" />
     <option name="height" value="730" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ls_source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ls_source" type="462c0819:PsiDirectoryNode" />
+              <item name="freelance_service_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freelance_service_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ls_source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ls_source" type="462c0819:PsiDirectoryNode" />
+              <item name="freelance_service_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freelance_service_2" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ls_source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ls_source" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ls_source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ls_source" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ls_source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ls_source" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freelance_service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -311,6 +326,7 @@
       <workItem from="1551514768117" duration="6393000" />
       <workItem from="1551731639412" duration="102000" />
       <workItem from="1552685420615" duration="5422000" />
+      <workItem from="1553083478371" duration="284000" />
     </task>
     <servers />
   </component>
@@ -326,13 +342,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11917000" />
+    <option name="totallyTimeSpent" value="12201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18053691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,7 +361,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.51983005" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.5188216" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.45609066" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -407,13 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/flask_peewee/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10047">
-          <caret line="594" selection-start-line="594" selection-end-line="594" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/flask_peewee/admin.py" />
     <entry file="file://$PROJECT_DIR$/models/category.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
@@ -501,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/client_jobs.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/submit_proposal.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -529,17 +532,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local_settings.py">
+    <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="e#25#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491" />
+        <state relative-caret-position="17">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -557,35 +581,20 @@
     <entry file="file://$PROJECT_DIR$/services/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/models/client_jobs.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/__init__.py">
+    <entry file="file://$PROJECT_DIR$/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/job.py">
+    <entry file="file://$PROJECT_DIR$/features/client_jobs.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#25#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="e#25#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="167">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
