@@ -2,27 +2,27 @@
 from behave import when, then, given
 
 
-@given('a job advertisement #I would add here some limit skills later')
-def param_get(context):
+@given('a job advertisement {random}')
+def param_get(context, random):
     pass
 
 
-@given('У меня есть навык "{x}", "{y}", "{z}" в профиле')
-def param_get_have(context, x, y, z):
+@given('У меня есть навык {xx}, {yy}, {zz} в профиле')
+def param_get_have(context, xx, yy, zz):
     pass
 
 
-@given('У меня нет навыка web в профиле, но есть "{x}", "{y}"')
+@given('У меня нет навыка web в профиле, но есть {x}, {y}')
 def param_get_havent(context, x, y):
     pass
 
 
-@given('У меня нет навыка web в профиле, но есть "{x}", "{y}"')
+@given('У меня нет навыка web в профиле, но есть {x}, {y}')
 def param_get_semihave(context, x, y):
     pass
 
 
-@given('В проекте "{x}", "{y}", "{z}" указан в обязательных навыках')
+@given('В проекте {x}, {y}, {z} указан в обязательных навыках')
 def param_get_crucial(context, x, y, z):
     pass
 
