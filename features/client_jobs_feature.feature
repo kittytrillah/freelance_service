@@ -1,16 +1,3 @@
-#Feature: Client Jobs
-#
-#  Scenario: Add new job advertisement
-#     Given an order parameters
-#        | name        |
-#        | description |
-#        | price       |
-#        | pay type    |
-#        | type        |
-#        | draft       |
-#    When we create a new job advertisement with name we need indian developer pls
-#    Then service will add it to list of job offers
-
 Feature: Client Jobs
     Scenario: Post a new job to the website
       Given: I have a set of jobs
@@ -23,6 +10,31 @@ Feature: Client Jobs
           | JS Developer   |
           | UI Designer    |
           | Web Copywriter |
+
+
+#    /////////////////////Undone////////////////////
+
+  Scenario: Сортировка заявок на основе требуемых навыков
+    Given: У меня опубликован проект
+    And: Указаны необходимые навыки web, 3d, gamedev
+    When: Я открываю список заявок от фрилансеров
+    Then: Заявки отсортированы таким образом, что сначала показываются работники с навыками, а затем все остальные
+
+
+  Scenario: Создание заказа
+    Given: Категория работы
+    And: Краткое описание заказа с ключевыми словами
+    When: Приступаю к выбору навыков
+    Then:  Я получаю подсказки, основанные на категории работы и ключевых словах из краткого описания заказа
+
+
+  Scenario: Создание заказа
+    Given:  Категория работы
+    And: Краткое описание заказа без распознаваемых ключевых слов
+    When:  Приступаю к выбору навыков
+    Then: Я получаю подсказки, основанные только на категории работы
+
+
 
 
 
