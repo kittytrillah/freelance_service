@@ -7,6 +7,9 @@ from application import DB
 from models.customer import Customer
 from models.product import Product
 
+from models.client import Client
+from models.freelancer import Freelancer
+
 
 STATUSES = [(1, 'Pre-Order'),
             (2, 'Payment'),

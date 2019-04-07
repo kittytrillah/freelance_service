@@ -26,12 +26,22 @@ def init_admin(app, db):
     from models.customer import Customer
     from models.order import Order, OrderItem
     from models.product import Product
+    #Freelance categories
+    from models.client import Client
+    from models.freelancer import Freelancer
+    from models.job import JobAdvertisement
+    from models.proposal import Proposal
 
-    admin.register(Category)
-    admin.register(Customer, CustomerAdmin)
-    admin.register(Order)
-    admin.register(OrderItem)
-    admin.register(Product)
+    # admin.register(Category)
+    # admin.register(Customer, CustomerAdmin)
+    # admin.register(Order)
+    # admin.register(OrderItem)
+    # admin.register(Product)
+    # Freelance registers
+    admin.register(Client)
+    admin.register(Freelancer)
+    admin.register(JobAdvertisement)
+    admin.register(Proposal)
     admin.setup()
 
     return admin
