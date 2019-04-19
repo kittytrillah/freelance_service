@@ -30,9 +30,12 @@ class Proposal(DB.Model):
     proposal_text = TextField(1200)
     jobadv_id = ForeignKeyField(JobAdvertisement, to_field='job_id', null=False)
     priority = IntegerField(null=False) #0 - First priority/ 1 - Second priority
-    skills_fl = ForeignKeyField(Freelancer, to_field='skills', null=False)
-    skills_job = ForeignKeyField(JobAdvertisement, to_field='skills', null=False)
-    scores_demand = ForeignKeyField(JobAdvertisement, to_field='job_demand', null=False)
+    # skills_fl = ForeignKeyField(Freelancer, to_field='skills', null=False)
+    # skills_job = ForeignKeyField(JobAdvertisement, to_field='skills', null=False)
+    # scores_demand = ForeignKeyField(JobAdvertisement, to_field='job_demand', null=False)
+    skills_fl = TextField(1200)
+    skills_job = TextField(1200)
+    scores_demand = IntegerField(null=False)
 
     class Meta:
         table_name = 'proposals'
