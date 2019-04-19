@@ -36,6 +36,9 @@ class JobAdvertisement(DB.Model):
     job_paytype = CharField(choices=JOBPAYTYPES, null=False)
     job_type = CharField(choices=JOBTYPES, null=False)
     job_fixed_by = ForeignKeyField(Freelancer, to_field='freelancer_id')
+    skills = TextField(300) #скиллы через запятую, чтобы делить regex потом
+    job_lock = IntegerField(null=False) #0 - soft lock/ 1 - hard lock
+    job_demand = IntegerField(null=False) # 0-100 points
 
     class Meta:
         table_name = 'jobs'
