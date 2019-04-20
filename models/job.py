@@ -28,14 +28,15 @@ class JobAdvertisement(DB.Model):
 
     job_id = PrimaryKeyField()
     client_id = ForeignKeyField(Client, to_field='client_id', null=False)
-    job_status = CharField(choices=STATUSES, null=False)
+    job_status = IntegerField(choices=STATUSES, null=False)
     create_time = DateTimeField(default=datetime.now, null=False)
     price = CharField(null=False)
     description = TextField(1200)
     job_name = TextField(300)
-    job_paytype = CharField(choices=JOBPAYTYPES, null=False)
-    job_type = CharField(choices=JOBTYPES, null=False)
-    job_fixed_by = ForeignKeyField(Freelancer, to_field='freelancer_id')
+    job_hash = TextField(256)
+    job_paytype = IntegerField(choices=JOBPAYTYPES, null=False)
+    job_type = IntegerField(choices=JOBTYPES, null=False)
+    job_fixed_by = ForeignKeyField(Freelancer, to_field='freelancer_id', null=True)
     skills = TextField(300) #скиллы через запятую, чтобы делить regex потом
     job_lock = IntegerField(null=False) #0 - soft lock/ 1 - hard lock
     job_demand = IntegerField(null=False) # 0-100 points

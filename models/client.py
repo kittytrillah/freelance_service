@@ -13,7 +13,7 @@ class Client(DB.Model):
     birth_day = DateField(null=True)
     create_time = DateTimeField(default=datetime.now, null=False)
     is_active = BooleanField(default=True)
-    companyname = CharField(50)
+    companyname = CharField(50, null=True)
 
     class Meta:
         table_name = 'clients'

@@ -9,5 +9,5 @@ def init_models(db):
     from models.proposal import Proposal
 
     msa = [Client, Freelancer, JobAdvertisement, Proposal]
-    db.database.drop_tables(msa)
+    #db.database.drop_tables(msa)
     db.database.create_tables(msa)
