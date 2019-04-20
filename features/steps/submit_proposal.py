@@ -7,7 +7,7 @@ import fuzzywuzzy
 @given('У меня есть навык {x} в профиле')
 def param_get(context, x):
     context.ready = 0 #readiness status
-    proposal_m.STATUSES = 1
+    proposal_m.Proposal.StatusChange(0, 1)
     context.error_messages = []
     context.current_skills = x
     pass
@@ -44,6 +44,7 @@ def param_get_crucial(context, skill_ratio):
             print("///Hard block accepted///")
         else:
             context.error_messages.append("skills not matching")
+            proposal_m.Proposal.ShowError()
         print("///Hard block chosen///")
     elif context.block_type == "Soft block":
         if context.current_ratio >= context.job_demanded_score:
@@ -51,6 +52,7 @@ def param_get_crucial(context, skill_ratio):
             print("///Soft block accepted///")
         else:
             context.error_messages.append("skills not matching")
+            proposal_m.Proposal.ShowError()
 
 
 @then('Моя заявка отправлена')

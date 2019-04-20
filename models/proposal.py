@@ -12,6 +12,7 @@ from models.client import Client
 
 db = DB.database
 approved = 0 #1 when is ready to submit
+errors = []
 
 
 STATUSES = [(1, 'Draft'),
@@ -65,7 +66,13 @@ class Proposal(DB.Model):
             print("Error while getting job skills")
         #skills_demand_i = JobAdvertisement.select(JobAdvertisement.skills).where(JobAdvertisement.job_hash == job_hash)
         print("///////////////")
-        ratio = fuzz.ratio(skills_current_i.lower().replace(',', ''), skills_demand_i.lower().replace(',', ''))
+        a_str = skills_current_i.lower().replace(',', '')
+        b_str = skills_demand_i.lower().replace(',', '')
+        ratio = 0
+        if b_str in a_str: #что если несколько скиллов - поправить
+            ratio = 100
+        else:
+            ratio = fuzz.ratio(skills_current_i.lower().replace(',', ''), skills_demand_i.lower().replace(',', ''))
         print("ratio: ")
         print(ratio)
         return ratio
@@ -85,3 +92,14 @@ class Proposal(DB.Model):
 
         return score
 
+
+    @staticmethod
+    def StatusChange(status_a, status_b):
+        pass
+
+
+    @staticmethod
+    def ShowError(error_str):
+        errors.append(error_str)
+        print(errors)
+        pass

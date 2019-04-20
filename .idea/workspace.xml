@@ -103,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/job.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="578">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -112,20 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/local_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/submit_proposal.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="680">
+              <caret line="40" column="72" lean-forward="true" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -133,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/steps/submit_proposal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="731">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -145,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/proposal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="67" column="110" selection-start-line="67" selection-start-column="110" selection-end-line="67" selection-end-column="110" />
+            <state relative-caret-position="-1188">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -166,12 +166,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="-187">
               <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="e#25#48#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behave.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97" />
           </provider>
         </entry>
       </file>
@@ -201,7 +208,6 @@
         <option value="$PROJECT_DIR$/reqs.txt" />
         <option value="$PROJECT_DIR$/local_settings.py.tmpl" />
         <option value="$PROJECT_DIR$/features/client_add_job_adv.feature" />
-        <option value="$PROJECT_DIR$/local_settings.py" />
         <option value="$PROJECT_DIR$/features/steps/client_jobs.py" />
         <option value="$PROJECT_DIR$/services/pw_api.py" />
         <option value="$PROJECT_DIR$/features/client_jobs.feature" />
@@ -218,9 +224,10 @@
         <option value="$PROJECT_DIR$/models/client.py" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
         <option value="$PROJECT_DIR$/models/security.py" />
-        <option value="$PROJECT_DIR$/models/proposal.py" />
         <option value="$PROJECT_DIR$/features/submit_proposal.feature" />
+        <option value="$PROJECT_DIR$/models/proposal.py" />
         <option value="$PROJECT_DIR$/features/steps/submit_proposal.py" />
+        <option value="$PROJECT_DIR$/local_settings.py" />
       </list>
     </option>
   </component>
@@ -234,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +269,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,17 +425,12 @@
       <workItem from="1555549293132" duration="12000" />
       <workItem from="1555577054793" duration="19000" />
       <workItem from="1555694989274" duration="838000" />
-      <workItem from="1555695854768" duration="19170000" />
+      <workItem from="1555695854768" duration="19263000" />
+      <workItem from="1555746721675" duration="3624000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="submit_proposal_feature - 2019.04.20 at 02h 30m 59s.xml">
-      <configuration name="submit_proposal.feature" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="submit_proposal_feature - 2019.04.20 at 02h 32m 51s.xml">
-      <configuration name="submit_proposal.feature" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
     <history-entry file="submit_proposal_feature - 2019.04.20 at 02h 35m 07s.xml">
       <configuration name="submit_proposal.feature" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
@@ -453,9 +455,15 @@
     <history-entry file="submit_proposal_feature - 2019.04.20 at 03h 03m 57s.xml">
       <configuration name="submit_proposal.feature" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
+    <history-entry file="submit_proposal_feature - 2019.04.20 at 10h 52m 51s.xml">
+      <configuration name="submit_proposal.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="submit_proposal_feature - 2019.04.20 at 10h 54m 53s.xml">
+      <configuration name="submit_proposal.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59381000" />
+    <option name="totallyTimeSpent" value="63098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,12 +478,12 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4857881" visible="true" weight="0.20937753" />
-      <window_info id="Structure" order="1" sideWeight="0.5142119" side_tool="true" visible="true" weight="0.20937753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48320413" visible="true" weight="0.21261115" />
+      <window_info id="Structure" order="1" sideWeight="0.5167959" side_tool="true" visible="true" weight="0.21261115" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49393696" visible="true" weight="0.32460734" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49393696" visible="true" weight="0.32460734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,13 +536,10 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/freelance_service$submit_proposal_feature.coverage" NAME="submit_proposal.feature Coverage Results" MODIFIED="1555718636094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/freelance_service$submit_proposal_feature.coverage" NAME="submit_proposal.feature Coverage Results" MODIFIED="1555746883883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/freelance_service$ls_source.coverage" NAME="ls_source Coverage Results" MODIFIED="1555715006089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local_settings.py.tmpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/client_add_job_adv.feature" />
     <entry file="file://$PROJECT_DIR$/models/customer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -563,11 +568,6 @@
     <entry file="file://$PROJECT_DIR$/services/categories.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/behave.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/ls.nginx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153" />
@@ -577,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-236" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/services/product.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -741,34 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#25#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/job.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="578">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="e#25#54#0" expanded="true" />
           </folding>
@@ -782,30 +755,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/proposal.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="67" column="110" selection-start-line="67" selection-start-column="110" selection-end-line="67" selection-end-column="110" />
-          <folding>
-            <element signature="e#25#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/submit_proposal.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="72" lean-forward="true" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/steps/submit_proposal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="731">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/submit_proposal.feature">
+    <entry file="file://$PROJECT_DIR$/models/proposal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="-1188">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#25#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behave.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
