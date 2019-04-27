@@ -24,7 +24,7 @@ DB_ENGINE = 'peewee.SqliteDatabase' # раскомментировать есл�
 DATABASE = {'engine': DB_ENGINE,
 'name': 'ls.sqlite'}
 
-TELEGRAM_BOT_PROXY = {}
+TELEGRAM_BOT_PROXY = {'https':''}
 
 DOMAIN = '127.0.0.1'
 MEDIA_URL = f'//{DOMAIN}/{MEDIA_ROOT}'
