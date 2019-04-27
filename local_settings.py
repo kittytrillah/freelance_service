@@ -26,5 +26,7 @@ DATABASE = {'engine': DB_ENGINE,
 
 TELEGRAM_BOT_PROXY = {'https':''}
 
+TELEGRAM_BOT_URL = ''
+
 DOMAIN = '127.0.0.1'
 MEDIA_URL = f'//{DOMAIN}/{MEDIA_ROOT}'
