@@ -11,3 +11,5 @@ def init_models(db):
     msa = [Client, Freelancer, JobAdvertisement, Proposal]
     #db.database.drop_tables(msa)
     db.database.create_tables(msa)
+
+    return [Client, Freelancer, JobAdvertisement, Proposal]

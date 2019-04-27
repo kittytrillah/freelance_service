@@ -3,13 +3,15 @@
 
 ^docs/_build/
 \.sock
-
+\.nginx
 local_settings\.py$
+ls\.sqlite$
 
 ^tmp_
 _tmp
 ^build/
 ^dist/
+^static/media/*\.*$
 ^nbproject/
 \.egg-info
 \.directory

@@ -1,0 +1,31 @@
+{%- extends "_base.html" -%}
+
+{%- block content %}
+    <div class="px-3 py-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Продукты</h1>
+        <p class="lead">Вы должны купить все бесполезные штуки.</p>
+    </div>
+
+    {% for product_row in products | batch(3, None) %}
+        <div class="row card-deck mb-4">
+            {% for product in product_row %}
+                {%  if product %}
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <a href="{{ url_for('current_product', product_id=product.product_id) }}"><h4 class="my-sm-n2 font-weight-lighter">{{ product.name }}</h4></a>
+                        </div>
+                        <img src="{{ product.image_url }}" class="card-img-top img-responsive" alt="{{ product.name }}" />
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">{{ product.price }} <small class="text-muted">₽</small></h2>
+                            <p class="card-text">{{ product.preview_description }}</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-md btn-block btn-outline-primary">Добавить</button>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+{% endblock -%}

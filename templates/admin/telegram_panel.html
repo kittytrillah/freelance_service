@@ -1,0 +1,24 @@
+{% extends "admin/panels/default.html" %}
+
+{% block panel_content %}
+    <table class="table table-sm table-bordered table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for ms in messages %}
+                <tr>
+                    <th scope="row">{{ loop.index }}</th>
+                    <td>{{ms}}</td>
+                    <td>ms</td>
+                    <td>ms</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
