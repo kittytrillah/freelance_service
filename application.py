@@ -45,5 +45,6 @@ class ConstructApp(object):
                 self.web_app.logger.info(f'The extension "{ex.name}" was initialize and configure.')
 
 
-APP = ConstructApp()
 
+def create_app(config_filename):
+    APP = ConstructApp()
